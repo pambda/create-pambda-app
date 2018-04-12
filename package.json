@@ -1,0 +1,39 @@
+{
+  "name": "create-pambda-app",
+  "version": "0.0.1",
+  "description": "Create Pambda apps",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bin": {
+    "create-pambda-app": "bin/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/pambda/create-pambda-app/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.224.1",
+    "aws-sdk-config-loader": "^1.0.1",
+    "current-npm": "0.0.2",
+    "ejs": "^2.5.8",
+    "mkdirp": "^0.5.1",
+    "run-series": "^1.1.6",
+    "shortid": "^2.2.8",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pambda/create-pambda-app",
+  "keywords": [
+    "pambda"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pambda/create-pambda-app.git"
+  },
+  "scripts": {},
+  "files": [
+    "README.md",
+    "bin/",
+    "lib/"
+  ]
+}
