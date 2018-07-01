@@ -30,7 +30,10 @@
     "type": "git",
     "url": "git+https://github.com/pambda/create-pambda-app.git"
   },
-  "scripts": {},
+  "scripts": {
+    "pretest": "test -d tmp/test-app && trash tmp/test-app",
+    "test": "create-pambda-app tmp/test-app --s3-bucket node-tmp --s3-prefix create-pambda-app-test"
+  },
   "files": [
     "README.md",
     "bin/",
