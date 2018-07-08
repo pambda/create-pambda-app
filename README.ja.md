@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-npm i create-pambda-app -S
+npm i -g create-pambda-app
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm i create-pambda-app -S
 npx create-pambda-app <project-directory>
 ```
 
-`product-directory` で指定したディレクトリに、 Pambda を使ったコードと [AWS SAM](https://github.com/awslabs/serverless-application-model) のテンプレートが生成される。
+`project-directory` で指定したディレクトリに、 Pambda を使ったコードと [AWS SAM](https://github.com/awslabs/serverless-application-model) のテンプレートが生成される。
 また、このコマンドはアプリケーションをデプロイするための S3 Bucket も作成する。
 
 アプリケーションをデプロイするためには、以下のように `deploy` スクリプトを実行する。
