@@ -1,6 +1,6 @@
 {
   "name": "create-pambda-app",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Create Pambda apps",
   "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
   "bin": {
