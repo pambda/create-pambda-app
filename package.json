@@ -31,6 +31,7 @@
     "url": "git+https://github.com/pambda/create-pambda-app.git"
   },
   "scripts": {
+    "postpublish": "npm-sns",
     "pretest": "test -d tmp/test-app && trash tmp/test-app || true",
     "test": "create-pambda-app tmp/test-app --s3-bucket node-tmp --s3-prefix create-pambda-app-test"
   },
