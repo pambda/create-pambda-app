@@ -12,10 +12,10 @@ npm i -g create-pambda-app
 
 This package provides the command `create-pambda-app`.
 
-With using [npx](https://www.npmjs.com/package/npx), you can run as follows:
+You can run as follows:
 
 ```
-npx create-pambda-app <project-directory>
+npm init pambda-app <project-directory>
 ```
 
 The code using Pambda and the template of [AWS SAM](https://github.com/awslabs/serverless-application-model) are generated in the directory specified by `project-directory`.
